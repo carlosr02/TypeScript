@@ -1,6 +1,8 @@
 # TypeScript
 Carlos Romero Bacurau de Brito (carlosr02), 20141011110255
 <h2>Resumo</h2>
+
+* Ctrl+S / Cmd+S to save the file
 * Propósito da linguagem: projetada para o desenvolvimento de aplicações de grande porte e traduz códigos fontes para JavaScript;
 * Paradgima da linguagem: scripting, orientada a objetos, estruturada, imperativa, funcional, genérica;
 * Data de criação: 2012; e,
