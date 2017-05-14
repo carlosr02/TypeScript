@@ -33,6 +33,15 @@ Declarações com **const** são outra forma de declarar variáveis. Elas são p
 <h3>Estruturas de controle condicional</h3>
 <h3>Estruturas de repetição</h3>
 <h3>Vetores, matrizes e strings</h3>
+<h4>Vetor</h4>
+
+TypeScrypt, assim como JavaScipt, permite trabalhar com vetores de valores. Vetores podem ser escritos de duas formas. Na primeira forma, coloca-se o tipo do elemento seguido de **[]**:
+
+`let list: number[] = [1, 2, 3];`
+
+A segunda forma utiliza uma forma genérica de vetor, **Array<elemType>**:
+
+`let list: Array<number> = [1, 2, 3];`
 <h3>Funções</h3>
 
 <h2>Sintaxe OO</h2>
