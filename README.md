@@ -19,6 +19,7 @@ Para compilar, execute o comando a seguir: `tsc [nome_arquivo].ts`
 <h4>Declarando com let</h4>
 Declarações com **let** são escritas da mesma forma que declarações com **var**
 
+
 `let hello = "Hello!";`
 
 <h3>Operadores relacionais e lógicos</h3>
