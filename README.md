@@ -29,19 +29,32 @@ Declarações com **const** são outra forma de declarar variáveis. Elas são p
 `const numLivesForCat = 9;`
 
 <h3>Operadores relacionais e lógicos</h3>
+<h2>Operadores relacionais</h2>
 
 Operadores relacionais testam ou definem o tipo de relação entre duas entidades. Estes operadores retornam um valor booleano, i.e., true/false.
 
-Assuma que o valor de A é 10 e B é 20.
+Assuma que o valor de A é 10 e de B é 20.
 
 | Operador | Descrição | Exemplo | 
 | :---: | :---: | :---: |
-| > | maior que | (A > B) é False |
-| < | menor que | (A < B) é True |
-| >= | maior ou igual que | (A >= B) é False |
-| <= | menor ou igual que | (A <= B) é True|
-| == | igual | (A == B) é False|
-| != | diferente | (A != B) é True|
+| > | maior que | (A > B) é false |
+| < | menor que | (A < B) é true |
+| >= | maior ou igual que | (A >= B) é false |
+| <= | menor ou igual que | (A <= B) é true|
+| == | igual | (A == B) é false|
+| != | diferente | (A != B) é true|
+
+<h2>Operadores lógicos</h2>
+
+Operadores lógicos são utilizados para combinar duas ou mais condições. Estes operadores também retornam um valor booleano.
+
+Assuma que o valor de A é 10 e de B é 20.
+
+| Operador | Descrição | Exemplo | 
+| :---: | :---: | :---: |
+| && (E) | o operador retorna true somente se todas as expressões forem verdadeiras | (A > 10 && B > 10) é false |
+| || (OU) | o operador retorna true se pelo menos uma expressão for verdadeira | (A > 10 || B > 10) é true |
+| ! (NÃO) | o operador retorna o inverso do resultado da expressão | !(A > 10) é true |
 
 <h3>Operadores aritméticos</h3>
 
