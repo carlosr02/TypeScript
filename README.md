@@ -15,7 +15,7 @@ Proceda a uma das opções abaixo para instalar as ferramentas TypeScript:
 Para compilar, execute o comando a seguir: `tsc [nome_arquivo].ts`
 <h2>Sintaxe Básica</h2>
 <h3>Variáveis e constantes</h3>
-**let** e **const** são dois novos tipos de declaração de variáveis em JavaScript
+**let**e**const**são dois novos tipos de declaração de variáveis em JavaScript
 <h3>Operadores relacionais e lógicos</h3>
 <h3>Operadores aritméticos</h3>
 <h3>Estruturas de controle condicional</h3>
