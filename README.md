@@ -33,15 +33,15 @@ Declarações com **const** são outra forma de declarar variáveis. Elas são p
 
 Assuma que os valores nas variáveis **a** e **b** são 10 e 5 respectivamente.
 
-|      Operador     |   Descrição   | Exemplo | 
-| ----------------- | ------------- | |
-|     + (Adição)    |               | |
-|   - (Subtração)   | Content Cell  | |
-| * (Multiplicação) | Content Cell  | |
-|    / (Divisão)    | Content Cell  | |
-|     % (Resto)     | Content Cell  | |
-|  ++ (Incremento)  | Content Cell  | |
-|  -- (Decremento)  | Content Cell  | |
+| Operador | Descrição | Exemplo | 
+| --- | --- | --- |
+| + (Adição) | retorna a soma dos operandos | a + b = 15 |
+| - (Subtração) | retorna a diferença dos operandos | a - b = 5 |
+| * (Multiplicação) | retorna o produto dos operandos | a * b = 50 |
+| / (Divisão) | retorna o quociente | a / b = 2 |
+| % (Resto) | retorna o resto da divisão | a % b = 0 |
+| ++ (Incremento) | aumenta o valor da variável em um | a++ = 11 |
+| -- (Decremento) | diminui o valor da variável em um | a-- = 9 |
 
 <h3>Estruturas de controle condicional</h3>
 <h3>Estruturas de repetição</h3>
