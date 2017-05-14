@@ -16,6 +16,7 @@ Para compilar, execute o comando a seguir: `tsc [nome_arquivo].ts`
 <h2>Sintaxe Básica</h2>
 
 * Variáveis e constantes
+  *oi
 * Operadores relacionais e lógicos
 * Operadores aritméticos
 * Estruturas de controle condicional
