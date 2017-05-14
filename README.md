@@ -58,7 +58,7 @@ Assuma que o valor de A é 10 e de B é 20.
 
 <h3>Operadores aritméticos</h3>
 
-Assuma que os valores nas variáveis **a** e **b** são 10 e 5 respectivamente.
+Assuma que os valores das variáveis **a** e **b** são 10 e 5 respectivamente.
 
 | Operador | Descrição | Exemplo | 
 | :---: | :---: | :---: |
