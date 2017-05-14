@@ -53,7 +53,7 @@ Assuma que o valor de A é 10 e de B é 20.
 | Operador | Descrição | Exemplo | 
 | :---: | :---: | :---: |
 | && (E) | o operador retorna true somente se todas as expressões forem verdadeiras | (A > 10 && B > 10) é false |
-| \|| (OU) | o operador retorna true se pelo menos uma expressão for verdadeira | (A > 10 \|| B > 10) é true |
+| \|\| (OU) | o operador retorna true se pelo menos uma expressão for verdadeira | (A > 10 \|\| B > 10) é true |
 | ! (NÃO) | o operador retorna o inverso do resultado da expressão | !(A > 10) é true |
 
 <h3>Operadores aritméticos</h3>
