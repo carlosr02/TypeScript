@@ -47,10 +47,21 @@ A segunda forma utiliza uma forma genérica de vetor, **Array<[tipo]>**:
 
 Como em outras linguagens, utilizamos o tipo **string** para referir-se a dados textuais. Assim como em JavaScript, TypeScript utiliza aspas duplas ( **"** ) ou aspas simples ( **'** ) para delimitar o valor da string.
 
-`let color: string = "blue";`
-
-`color = 'red';`
+```
+let color: string = "blue";
+color = 'red';
+```
 <h3>Funções</h3>
+Assim como em JavaScipt, funções em TypeScipt podem ser criadas com ou sem nome (anônimas).
 
+```
+// Named function
+function add(x, y) {
+    return x + y;
+}
+
+// Anonymous function
+let myAdd = function(x, y) { return x+y; };
+```
 <h2>Sintaxe OO</h2>
 <h2>Sintaxe Funcional</h2>
