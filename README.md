@@ -66,8 +66,8 @@ let myAdd = function(x, y) { return x+y; };
 <h2>Sintaxe OO</h2>
 <h3>Classes</h3>
 <h3>Objetos</h3>
-<h3>Atributos (visibilidade: privado e público, escopo: classe e objeto)</h3>
-<h3>Métodos (visibilidade: privado e público, escopo: classe e objeto)</h3>
+<h3>Atributos</h3>
+<h3>Métodos</h3>
 <h3>Construtores</h3>
 <h3>Herança</h3>
 <h3>Polimorfismo</h3>
