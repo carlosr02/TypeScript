@@ -55,12 +55,12 @@ color = 'red';
 Assim como em JavaScipt, funções em TypeScipt podem ser criadas com ou sem nome (anônimas).
 
 ```
-// Named function
+// Função com nome
 function add(x, y) {
     return x + y;
 }
 
-// Anonymous function
+// Função anônima
 let myAdd = function(x, y) { return x+y; };
 ```
 <h2>Sintaxe OO</h2>
