@@ -30,6 +30,18 @@ Declarações com **const** são outra forma de declarar variáveis. Elas são p
 
 <h3>Operadores relacionais e lógicos</h3>
 <h3>Operadores aritméticos</h3>
+
+Assuma que os valores nas variáveis **a** e **b** são 10 e 5 respectivamente.
+
+|      Operador     |   Descrição   | Exemplo | 
+| ----------------- | ------------- | |
+|     + (Adição)    |               | |
+|   - (Subtração)   | Content Cell  | |
+| * (Multiplicação) | Content Cell  | |
+|    / (Divisão)    | Content Cell  | |
+|     % (Resto)     | Content Cell  | |
+|  ++ (Incremento)  | Content Cell  | |
+|  -- (Decremento)  | Content Cell  | |
 <h3>Estruturas de controle condicional</h3>
 <h3>Estruturas de repetição</h3>
 <h3>Vetores, matrizes e strings</h3>
