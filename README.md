@@ -19,12 +19,12 @@ Para compilar, execute o comando a seguir: `tsc [nome_arquivo].ts`
 **let** e **const** são dois novos tipos de declaração de variáveis em JavaScript. **let** é semelhante a **var** em alguns aspectos, mas permite que o usuário evite algumas armadilhas recorrentes em JavaScipt. **const** é um acremento de **let** que previne reatribuição de valores a uma variável.
 <h4>Declarando com let</h4>
 
-Declarações com **let** são escritas da mesma forma que declarações com **var**
+Declarações com **let** são escritas da mesma forma que declarações com **var**. A principal diferença, no entanto, não é a sintaxe, mas a semântica. Propriedades como: block-scoping, re-declarations, shadowing permitem que alguns dos bugs provenientes do uso do **var** sejam evitados.
 
 `let hello = "Hello!";`
 <h4>Declarando com const</h4>
 
-Declarações com **const** são outra forma de declarar variáveis
+Declarações com **const** são outra forma de declarar variáveis. Elas são parecidas com declarações com **let**, mas seus valores não podem ser alterados depois de definidos.
 
 `const numLivesForCat = 9;`
 
