@@ -13,6 +13,7 @@ Existem duas principais formas de instalar-se as ferramentas TypeScript:
 * Faça a instalação do plugin para o Visual Studio: [TypeScript for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48593)
 
 Descrever de forma resumida como usar (compilar e executar), demonstrando os comandos
+Para compilar, digite: `tsc [nome_arquivo].ts`
 <h2>Sintaxe Básica</h2>
 <h2>Sintaxe OO</h2>
 <h2>Sintaxe Funcional</h2>
