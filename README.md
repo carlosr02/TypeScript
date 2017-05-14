@@ -48,6 +48,7 @@ A segunda forma utiliza uma forma genérica de vetor, **Array<[tipo]>**:
 Como em outras linguagens, utilizamos o tipo **string** para referir-se a dados textuais. Assim como em JavaScript, TypeScript utiliza aspas duplas ( **"** ) or aspas simples ( **'** ) para delimitar o valor da string.
 
 `let color: string = "blue";`
+
 `color = 'red';`
 <h3>Funções</h3>
 
