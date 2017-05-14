@@ -34,7 +34,7 @@ Declarações com **const** são outra forma de declarar variáveis. Elas são p
 Assuma que os valores nas variáveis **a** e **b** são 10 e 5 respectivamente.
 
 | Operador | Descrição | Exemplo | 
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | + (Adição) | retorna a soma dos operandos | a + b = 15 |
 | - (Subtração) | retorna a diferença dos operandos | a - b = 5 |
 | * (Multiplicação) | retorna o produto dos operandos | a * b = 50 |
