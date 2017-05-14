@@ -42,6 +42,13 @@ TypeScrypt, assim como JavaScipt, permite trabalhar com vetores de valores. Veto
 A segunda forma utiliza uma forma genérica de vetor, **Array<[tipo]>**:
 
 `let list: Array<number> = [1, 2, 3];`
+<h4>Matriz</h4>
+<h4>String</h4>
+Como em outras linguagens, utilizamos o tipo **string** para referir-se a dados textuais. Assim como em JavaScript, TypeScript utiliza aspas duplas (**"**) or aspas simples (**'**) para delimitar o valor da string.
+
+`let color: string = "blue";
+
+color = 'red';`
 <h3>Funções</h3>
 
 <h2>Sintaxe OO</h2>
