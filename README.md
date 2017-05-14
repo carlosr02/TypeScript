@@ -4,8 +4,8 @@ Carlos Romero Bacurau de Brito (carlosr02), 20141011110255
 
 * Propósito da linguagem: projetada para o desenvolvimento de aplicações de grande porte. Pode ser utilizada para desenvolver aplicações JavaScript para front-end e back-end (Node.js);
 * Multiparadigma: scripting, orientada a objetos, estruturada, imperativa, funcional, genérica;
-* Data de criação: 2012 por Anders Hejlsberg; e,
-* Principal mantenedor: Microsoft.
+* Data de criação: 2012 por [Anders Hejlsberg](https://pt.wikipedia.org/wiki/Anders_Hejlsberg); e,
+* Principal mantenedor: [Microsoft](https://www.microsoft.com/pt-br/).
 <h2>Instalação e Uso</h2>
 Proceda a uma das opções para instalar as ferramentas TypeScript:
 
