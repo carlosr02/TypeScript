@@ -39,7 +39,7 @@ TypeScrypt, assim como JavaScipt, permite trabalhar com vetores de valores. Veto
 
 `let list: number[] = [1, 2, 3];`
 
-A segunda forma utiliza uma forma genérica de vetor, **Array<elemType>**:
+A segunda forma utiliza uma forma genérica de vetor, **Array<'elemType'>**:
 
 `let list: Array<number> = [1, 2, 3];`
 <h3>Funções</h3>
