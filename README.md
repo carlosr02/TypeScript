@@ -42,6 +42,7 @@ Assuma que os valores nas variáveis **a** e **b** são 10 e 5 respectivamente.
 |     % (Resto)     | Content Cell  | |
 |  ++ (Incremento)  | Content Cell  | |
 |  -- (Decremento)  | Content Cell  | |
+
 <h3>Estruturas de controle condicional</h3>
 <h3>Estruturas de repetição</h3>
 <h3>Vetores, matrizes e strings</h3>
