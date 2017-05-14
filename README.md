@@ -29,6 +29,20 @@ Declarações com **const** são outra forma de declarar variáveis. Elas são p
 `const numLivesForCat = 9;`
 
 <h3>Operadores relacionais e lógicos</h3>
+
+Operadores relacionais testam ou definem o tipo de relação entre duas entidades. Estes operadores retornam um valor booleano, i.e., true/false.
+
+Assuma que o valor de A é 10 e B é 20.
+
+| Operador | Descrição | Exemplo | 
+| :---: | :---: | :---: |
+| > | maior que | (A > B) é False |
+| < | menor que | (A < B) é True |
+| >= | maior ou igual que | (A >= B) é False |
+| <= | menor ou igual que | (A <= B) é True|
+| == | igual | (A == B) é False|
+| != | diferente | (A != B) é True|
+
 <h3>Operadores aritméticos</h3>
 
 Assuma que os valores nas variáveis **a** e **b** são 10 e 5 respectivamente.
@@ -38,7 +52,7 @@ Assuma que os valores nas variáveis **a** e **b** são 10 e 5 respectivamente.
 | + (Adição) | retorna a soma dos operandos | a + b é 15 |
 | - (Subtração) | retorna a diferença dos operandos | a - b é 5 |
 | * (Multiplicação) | retorna o produto dos operandos | a * b é 50 |
-| / (Divisão) | retorna o quociente | a / b é 2 |
+| / (Divisão) | retorna o quociente da divisão | a / b é 2 |
 | % (Resto) | retorna o resto da divisão | a % b é 0 |
 | ++ (Incremento) | aumenta o valor da variável em um | a++ é 11 |
 | -- (Decremento) | diminui o valor da variável em um | a-- é 9 |
