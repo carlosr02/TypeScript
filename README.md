@@ -52,6 +52,7 @@ let color: string = "blue";
 color = 'red';
 ```
 <h3>Funções</h3>
+
 Assim como em JavaScipt, funções em TypeScipt podem ser criadas com ou sem nome (anônimas).
 
 ```
