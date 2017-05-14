@@ -14,5 +14,14 @@ Proceda a uma das opções abaixo para instalar as ferramentas TypeScript:
 
 Para compilar, execute o comando a seguir: `tsc [nome_arquivo].ts`
 <h2>Sintaxe Básica</h2>
+
+* Variáveis e constantes
+* Operadores relacionais e lógicos
+* Operadores aritméticos
+* Estruturas de controle condicional
+* Estruturas de repetição
+* Vetores, matrizes e strings
+* Funções
+
 <h2>Sintaxe OO</h2>
 <h2>Sintaxe Funcional</h2>
