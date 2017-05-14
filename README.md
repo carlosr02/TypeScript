@@ -64,4 +64,16 @@ function add(x, y) {
 let myAdd = function(x, y) { return x+y; };
 ```
 <h2>Sintaxe OO</h2>
+<h3>Classes</h3>
+<h3>Objetos</h3>
+<h3>Atributos (visibilidade: privado e público, escopo: classe e objeto)</h3>
+<h3>Métodos (visibilidade: privado e público, escopo: classe e objeto)</h3>
+<h3>Construtores</h3>
+<h3>Herança</h3>
+<h3>Polimorfismo</h3>
+<h3>Sobrecarga</h3>
+<h3>Exceções</h3>
+<h4>Categorias de exeções</h4>
+<h4>Captura e lançamento de exceções</h4>
+<h4>Criar novas exeções</h4>
 <h2>Sintaxe Funcional</h2>
