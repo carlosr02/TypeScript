@@ -75,18 +75,19 @@ Assuma que os valores das variáveis **a** e **b** são 10 e 5 respectivamente.
 
 Estruturas condicionais requerem que o programador especifique uma ou mais condições que serão avaliadas ou testadas pelo programa, juntamente com uma ação ou ações que serão executadas caso a condição seja declarada verdadeira, e opcionalmente, outras ações que serão executadas caso a condiação seja declarada falsa.
 
-<h4>if...else</h4>
+<h4>if</h4>
 
-O controle **if...else** verifica uma condição antes de um bloco de código ser executado.
+O controle **if** verifica uma expressão antes de um bloco de código ser executado.
 
 ```
-if(expressao_booleana) {
-   // ação(ões) será(ão) executada(s) se a condição for verdadeira  
+if(expressao) {
+   // ação(ões) será(ão) executada(s) se a expressão for verdadeira  
 } 
 ```
 
-Se a expressão booleana for verdadeira, o bloco de código dentro do if será executado. Se for falsa, a primeira linha de código após o if será executada. 
+Se a expressão for verdadeira, o bloco de código dentro do if será executado. Se for falsa, a primeira linha de código após o if será executada. 
 
+<h5>Exemplo</h5>
 
 ```
 var  num:number = 5
@@ -96,9 +97,81 @@ if (num > 0) {
 \\Número positivo
 ```
 
+<h4>if...else</h4>
+
+Um **if** pode ser acompanhado por um bloco opcional **else**. O bloco **else** será executado se a expressão testada pelo **if** for falsa.
+
+```
+if(expressao) {  
+   // ação(ões) será(ão) executada(s) se a expressão for verdadeira
+} else {
+   // ação(ões) será(ão) executada(s) se a expressão for falsa  
+}
+```
+
+<h5>Exemplo</h5>
+
+```
+var num:number = 12; 
+if (num % 2==0) { 
+   console.log("Par"); 
+} else {
+   console.log("´Ímpar"); 
+}
+//Ímpar
+```
+
+<h4>else...if</h4>
+
 <h4>switch</h4>
 
-O controle **switch** avalia uma expressão, 
+O controle **switch** avalia uma expressão, combina o valor da expressão com uma cláusula case e executa a ação associada ao caso.
+
+```
+switch(expressao) { 
+   case expressao1: { 
+      //ações; 
+      break; 
+   } 
+   case expressao2: { 
+      //ações; 
+      break; 
+   } 
+   default: { 
+      //ações; 
+      break; 
+   } 
+}
+```
+
+<h5>Exemplo</h5>
+
+```
+var nota:string = "A"; 
+switch(grade) { 
+   case "A": { 
+      console.log("Excelente"); 
+      break; 
+   } 
+   case "B": { 
+      console.log("Bom"); 
+      break; 
+   } 
+   case "C": {
+      console.log("Regular"); 
+      break;    
+   } 
+   case "D": { 
+      console.log("Ruim"); 
+      break; 
+   }  
+   default: { 
+      console.log("Opção Inválida"); 
+      break;              
+   } 
+}
+//Excelente
+```
 
 <h3>Estruturas de repetição</h3>
 <h3>Vetores, matrizes e strings</h3>
