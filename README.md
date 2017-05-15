@@ -89,6 +89,8 @@ if (num > 0) {
 
 <h4>switch</h4>
 
+O controle **switch** avalia uma expressão, 
+
 <h3>Estruturas de repetição</h3>
 <h3>Vetores, matrizes e strings</h3>
 <h4>Vetor</h4>
