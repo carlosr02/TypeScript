@@ -73,7 +73,7 @@ Assuma que os valores das variáveis **a** e **b** são 10 e 5 respectivamente.
 
 <h3>Estruturas de controle condicional</h3>
 
-Estruturas condicionais requerem que o programador especifique uma ou mais condições que serão avaliadas ou testadas pelo programa, juntamente com uma ação ou ações que serão executadas caso a condição seja declarada verdadeira, e opcionalmente, outras ações que serão executadas caso a condiação seja declarada falsa.
+Estruturas condicionais requerem que o programador especifique uma ou mais condições a serem avaliadas ou testadas pelo programa, juntamente com uma ação ou ações que serão executadas caso a condição seja declarada verdadeira, e opcionalmente, outras ações que serão executadas caso a condiação seja declarada falsa.
 
 <h4>if</h4>
 
@@ -116,12 +116,38 @@ var num:number = 12;
 if (num % 2==0) { 
    console.log("Par"); 
 } else {
-   console.log("´Ímpar"); 
+   console.log("Ímpar"); 
 }
 //Ímpar
 ```
 
 <h4>else...if</h4>
+
+O controle **else...if** é recomendado para testes de múltiplas condições.
+
+```
+if (expressao1) { 
+   //ações caso a expressao1 seja verdadeira 
+} else if (expressao2) { 
+   //ações caso a expressao2 seja verdadeira 
+} else { 
+   //ações caso ambas as expressao1 e expressao2 sejam falsas 
+}
+```
+
+<h5>Exemplo</h5>
+
+```
+var num:number = 2 
+if(num > 0) { 
+   console.log(num+" é positivo") 
+} else if(num < 0) { 
+   console.log(num+" é negativo") 
+} else { 
+   console.log(num+" é nem positivo, nem negativo") 
+}
+//2 é positivo
+```
 
 <h4>switch</h4>
 
