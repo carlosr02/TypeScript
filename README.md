@@ -7,6 +7,7 @@ Carlos Romero Bacurau de Brito (carlosr02), 20141011110255
 * Data de criação: 2012 por [Anders Hejlsberg](https://pt.wikipedia.org/wiki/Anders_Hejlsberg); e,
 * Principal mantenedor: [Microsoft](https://www.microsoft.com/pt-br/).
 <h2>Instalação e Uso</h2>
+
 Proceda a uma das opções abaixo para instalar as ferramentas TypeScript:
 
 * Execute o comando a seguir na linha de comando: `npm install -g typescript` ou
