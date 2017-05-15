@@ -71,6 +71,12 @@ Assuma que os valores das variáveis **a** e **b** são 10 e 5 respectivamente.
 | -- (Decremento) | diminui o valor da variável em um | a-- é 9 |
 
 <h3>Estruturas de controle condicional</h3>
+
+Estruturas condicionais requerem que o programador especifique uma ou mais condições que serão avaliadas ou testadas pelo programa, juntamente com uma ação ou ações que serão executadas caso a condição seja declarada verdadeira, e opcionalmente, outras ações que serão executadas caso a condiação seja declarada falsa.
+
+<h4>if...else</h4>
+<h4>switch</h4>
+
 <h3>Estruturas de repetição</h3>
 <h3>Vetores, matrizes e strings</h3>
 <h4>Vetor</h4>
