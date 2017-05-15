@@ -94,6 +94,7 @@ var  num:number = 5
 if (num > 0) { 
    console.log("Número positivo") 
 }
+
 \\Número positivo
 ```
 
@@ -118,6 +119,7 @@ if (num % 2==0) {
 } else {
    console.log("Ímpar"); 
 }
+
 //Ímpar
 ```
 
@@ -146,6 +148,7 @@ if(num > 0) {
 } else { 
    console.log(num+" é nem positivo, nem negativo") 
 }
+
 //2 é positivo
 ```
 
@@ -196,10 +199,106 @@ switch(grade) {
       break;              
    } 
 }
+
 //Excelente
 ```
 
 <h3>Estruturas de repetição</h3>
+
+Uma estrutura de repetição permite a execução de uma ação ou bloco de ações múltiplas vezes. TypeScript fornece vários tipos de estruturas de repetição.
+
+<h4>Repetições definidas</h4>
+
+Repetições cuja quantidade de interações são determinadas/fixas. **for** é um tipo de implementação dessa categoria.
+
+<h5>for</h5>
+
+A estrutura **for** executa um bloco de código por um número específico de vezes.
+
+```
+for (valor_inicial_contador; condicao_final; passo) {
+   //ações 
+}
+```
+
+A estrutura usa uma variável contadora para registrar as interações. O loop inicia a interação definindo o valor inicial do contador e executa o bloco de código enquanto o valor do contador satisfazer a condicao_final. O passo altera o valor do contador após cada interação.
+
+<h6>Exemplo</h6>
+
+```
+var num:number = 5; 
+var i:number; 
+var fatorial = 1; 
+
+for(i = num;i >= 1;i--) {
+   fatorial *= i;
+}
+console.log(fatorial)
+
+//120
+```
+
+<h4>Repetições indefinidas</h4>
+
+Repetições indefinidas são utilizadas quando a quantidade de interações é indeterminada ou desconhecida. Podem ser utilizada as estruturas **while** e **do...while**.
+
+<h5>while</h5>
+
+A estrutura **while** executa as instruções toda vez que a condição especificada for verdadeira. Em outras palavras, a estrutura verifica a condição antes de executar o bloco de código.
+
+```
+while(condicao) { 
+   // ações caso a condição seja verdadeira 
+}
+```
+
+<h6>Exemplo</h6>
+
+```
+var num:number = 5; 
+var fatorial:number = 1; 
+
+while(num >=1) { 
+   fatorial = fatorial * num; 
+   num--; 
+} 
+console.log("O fatorial  é "+fatorial);
+
+\\O fatorial é 120
+```
+
+<h5>do...while</h5>
+
+A estrutura **do...while** é similar a do **while** exceto que essa não valida a condição na primeira vez que a repetição é realizada. No entanto, nas interações seguintes, a condição será validada. Em outras palavras, o bloco de código será executado, no mínimo, uma vez.
+
+```
+do {
+   //ações 
+} while(condicao)
+```
+
+<h6>Exemplo</h6>
+
+```
+var n:number = 10;
+do { 
+   console.log(n); 
+   n--; 
+} while(n>=0); 
+
+\\10
+\\9
+\\8
+\\7
+\\6
+\\5
+\\4
+\\3
+\\2
+\\1
+\\0
+```
+
 <h3>Vetores, matrizes e strings</h3>
 <h4>Vetor</h4>
 
