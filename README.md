@@ -75,6 +75,16 @@ Assuma que os valores das variáveis **a** e **b** são 10 e 5 respectivamente.
 Estruturas condicionais requerem que o programador especifique uma ou mais condições que serão avaliadas ou testadas pelo programa, juntamente com uma ação ou ações que serão executadas caso a condição seja declarada verdadeira, e opcionalmente, outras ações que serão executadas caso a condiação seja declarada falsa.
 
 <h4>if...else</h4>
+
+O controle **if...else** verifica uma condição antes de um bloco de código ser executado.
+
+```
+var  num:number = 5
+if (num > 0) { 
+   console.log("Número positivo") 
+}\\Número positivo
+```
+
 <h4>switch</h4>
 
 <h3>Estruturas de repetição</h3>
