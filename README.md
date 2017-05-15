@@ -80,6 +80,15 @@ Estruturas condicionais requerem que o programador especifique uma ou mais condi
 O controle **if...else** verifica uma condição antes de um bloco de código ser executado.
 
 ```
+if(expressao_booleana) {
+   // ação(ões) será(ão) executada(s) se a condição for verdadeira  
+} 
+```
+
+Se a expressão booleana for verdadeira, o bloco de código dentro do if será executado. Se for falsa, a primeira linha de código após o if será executada. 
+
+
+```
 var  num:number = 5
 if (num > 0) { 
    console.log("Número positivo") 
