@@ -82,7 +82,8 @@ O controle **if...else** verifica uma condição antes de um bloco de código se
 var  num:number = 5
 if (num > 0) { 
    console.log("Número positivo") 
-}\\Número positivo
+}
+\\Número positivo
 ```
 
 <h4>switch</h4>
