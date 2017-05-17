@@ -311,7 +311,7 @@ A segunda forma utiliza uma forma genérica de vetor, **Array<[tipo]>**:
 `let list: Array<number> = [1, 2, 3];`
 <h4>Matriz</h4>
 
-Um vetor pode ter como valor uma referência a outro vetor. Esse tipo de vetor é chamado de vetor multidimensional. A forma mais simples desse tipo de vetor é um vetor bidemensional.
+Um vetor pode ter como valor uma referência a outro vetor. Esse tipo de vetor é chamado de vetor multidimensional. A forma mais simples desse tipo de vetor é um vetor bidimensional.
 
 <h5>Declarando um vetor bidimensional</h5>
 
