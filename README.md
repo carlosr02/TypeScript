@@ -362,7 +362,26 @@ function add(x, y) {
 let myAdd = function(x, y) { return x+y; };
 ```
 <h2>Sintaxe OO</h2>
+
+Essencialmente, JavaScript usa funções para construir componentes reutilizáveis. No entanto, TypeScript é orientada a objetos, permitindo a criação de classes, interfaces, etc.
 <h3>Classes</h3>
+
+Uma classe encapsula dados para um objeto.
+
+```
+class nome_classe { 
+   //corpo da classe 
+}
+```
+
+A palavra-chave class é seguida pelo nome da classe. Regras de identificação devem ser consideradas ao nomear-se uma classe.
+
+Uma classe pode conter:
+
+* Atributos - Um atributo é qualquer variável declarada em uma classe. Atributos representam dados pertencentes a objetos.
+* Construtores - Responsáveis por alocarem memória para os objetos da classe.
+* Métodos - Os métodos representam ações que um objeto pode realizar.
+
 <h3>Objetos</h3>
 <h3>Atributos</h3>
 <h3>Métodos</h3>
