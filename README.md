@@ -313,13 +313,13 @@ A segunda forma utiliza uma forma genérica de vetor, **Array<[tipo]>**:
 
 Um vetor pode ter como valor uma referência a outro vetor. Esse tipo de vetor é chamado de vetor multidimensional. A forma mais simples desse tipo de vetor é um vetor bidemensional.
 
-<h5>Declaração</h5>
+<h5>Declarando um vetor bidimensional</h5>
 
-`var arr_name:datatype[][]=[ [val1,val2,val3],[v1,v2,v3] ]`
+`var nome_vetor:tipo_dado[][]=[ [val1,val2,val3],[v1,v2,v3] ]`
 
 <h5>Acessando um elemento de um vetor bidimensional</h5>
 
-`var arr_name:datatype[initial_array_index][referenced_array_index]`
+`var nome_vetor:tipo_dado[indice_vetor_inicial][indice_vetor_referenciado]`
 
 <h5>Exemplo</h5>
 
