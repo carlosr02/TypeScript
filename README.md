@@ -20,7 +20,7 @@ Para compilar, execute o comando a seguir: `tsc [nome_arquivo].ts`
 **let** e **const** são dois novos tipos de declaração de variáveis em JavaScript. **let** é semelhante a **var** em alguns aspectos, mas permite que o usuário evite algumas armadilhas recorrentes em JavaScipt. **const** é um acremento de **let** que previne reatribuição de valores a uma variável.
 <h4>Declarando com let</h4>
 
-Declarações com **let** são escritas da mesma forma que declarações com **var**. A principal diferença, no entanto, não é a sintaxe, mas a semântica. Propriedades como: block-scoping, re-declarations, shadowing permitem que alguns dos bugs provenientes do uso do **var** sejam evitados.
+Declarações com **let** são escritas da mesma forma que declarações com **var**. A principal diferença, no entanto, não é a sintaxe, mas a semântica. Propriedades como: block-scoping, sem re-declarations, shadowing permitem que alguns dos bugs provenientes do uso do **var** sejam evitados.
 
 `let hello = "Hello!";`
 <h4>Declarando com const</h4>
@@ -310,6 +310,36 @@ A segunda forma utiliza uma forma genérica de vetor, **Array<[tipo]>**:
 
 `let list: Array<number> = [1, 2, 3];`
 <h4>Matriz</h4>
+
+Um vetor pode ter como valor uma referência a outro vetor. Esse tipo de vetor é chamado de vetor multidimensional. A forma mais simples desse tipo de vetor é um vetor bidemensional.
+
+<h5>Declaração</h5>
+
+`var arr_name:datatype[][]=[ [val1,val2,val3],[v1,v2,v3] ]`
+
+<h5>Acessando um elemento de um vetor bidimensional</h5>
+
+`var arr_name:datatype[initial_array_index][referenced_array_index]`
+
+<h5>Exemplo</h5>
+
+```
+var multi:number[][] = [[1,2,3],[23,24,25]]  
+console.log(multi[0][0]) 
+console.log(multi[0][1]) 
+console.log(multi[0][2]) 
+console.log(multi[1][0]) 
+console.log(multi[1][1]) 
+console.log(multi[1][2])
+
+\\1
+\\2
+\\3
+\\23
+\\24
+\\25
+```
+
 <h4>String</h4>
 
 Como em outras linguagens, utilizamos o tipo **string** para referir-se a dados textuais. Assim como em JavaScript, TypeScript utiliza aspas duplas ( **"** ) ou aspas simples ( **'** ) para delimitar o valor da string.
