@@ -319,7 +319,7 @@ Um vetor pode ter como valor uma referÃªncia a outro vetor. Esse tipo de vetor Ã
 
 <h5>Acessando um elemento de um vetor bidimensional</h5>
 
-`var nome_vetor:tipo_dado[indice_vetor_inicial][indice_vetor_referenciado]`
+`nome_vetor[indice_vetor_inicial][indice_vetor_referenciado]`
 
 <h5>Exemplo</h5>
 
