@@ -626,12 +626,12 @@ disp(1,"xyz");
 * A função é chamada pelos dois últimos comandos.
 <h3>Exceções</h3>
 
-Em TypeScript, não temos Exception, chamamos de error. Esses errors acontecem em tempo de execução, não em tempo de compilamento. Assim sendo, temos que alterar o código para removê-los, já que TypeScript não os trata organicamente.
+Em TypeScript, não há Exception, chamamos de error. Esses errors acontecem em tempo de execução, não em tempo de compilação. Assim sendo, temos que alterar o código para removê-los, já que TypeScript não os trata organicamente.
 <h4>Categorias de exeções</h4>
 
 <h5>Error</h5>
 
-Interface principal no TypeScript. Possui duas propriedades, name e message. Não recebemos esse tipo de erro, recebemos seus filhos (EvalError, RangeError, ReferenceError).
+Interface principal no TypeScript. Possui duas propriedades, name e message, que serão herdadas pelos seus filhos. Não recebemos esse tipo de erro, recebemos suas subclasses (EvalError, RangeError, ReferenceError, SyntaxError, TypeError, URIError).
 
 ```
  interface Error {
@@ -640,16 +640,61 @@ Interface principal no TypeScript. Possui duas propriedades, name e message. Nã
 
 }
 ```
-<h5>EvalError</h5>
+<h6>EvalError</h6>
 
+O EvalError indica um erro relacionado a função eval(). Assim, o erro ocorrerá ao execetuar tal função.
+<h6>RangeError</h6>
 
-<h5>RangeError</h5>
-<h5>ReferenceError</h5>
+O RangeError indica um erro quando um valor não está no formato/tamanho permitido. Esse erro ocorre quando há a tentativa de passar um número como argumento em uma função que não permite um intervalo do qual pertence o número.
+<h6>ReferenceError</h6>
+
+O ReferenceError indica um erro quando uma variável não existente é referenciada, ou seja, na tentativa de referenciar uma variável que não foi declarada.
+
+<h6>SyntaxError</h6>
+
+O Syntaxerror indica um erro na tentativa de interpretar sintaticamente um código inválido.
+<h6>TypeError</h6>
+
+O TypeError indica um erro quando um valor não é do tipo esperado.
+<h6>URIError</h6>
+
+O URIError indica um erro quando uma função global URI é utilizada erroneamente.
 <h4>Captura e lançamento de exceções</h4>
+
+O comando try-catch fornece uma forma de tratar alguns ou todos os erros que possam acontecer em uma aplicação. Nesse comando, escreve-se um bloco try que contém comandos que podem gerar exceções. Depois, há o bloco catch que contém os comandos que serão executados quando uma exceção é lançada por um comando no bloco try. Também podemos utilizar o bloco finally que é certo de ser executado.
+
+```
+try
+{
+// Código que pode gerar uma exceção.
+}
+catch (Exception ex)
+{
+// Código para tratar exceção
+}
+finally
+{
+//
+}
+```
 <h4>Criar novas exeções</h4>
+
+Podemos criar nossas próprias exceções usando a palavra-chave **throw**.
+
+```
+try {
+  throw new EvalError("some Message");
+} catch (e) {
+  console.log(e instanceof EvalError); // true
+  console.log(e.message);              // some Message
+  console.log(e.name);                 // "EvalError"
+  
+}
+```
 <h2>Sintaxe Funcional</h2>
 <h2>Referências</h2>
 
 * [TypeScript](https://www.typescriptlang.org/index.html)
 * [TypeScript Tutorial](https://www.tutorialspoint.com/typescript)
 * [Error Handling in Typescript](https://narayanatechnicalworld.blogspot.com.br/2016/05/error-handling-in-typescript.html)
+* [Try Catch Statement in TypeScript](http://www.c-sharpcorner.com/UploadFile/5089e0/try-catch-statement-in-typescript/)
