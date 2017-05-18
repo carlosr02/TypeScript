@@ -625,7 +625,31 @@ disp(1,"xyz");
 * A terceira linha define a função. O tipo dos dados está definido como **any**. Além do segundo parâmetro ser opcional.
 * A função é chamada pelos dois últimos comandos.
 <h3>Exceções</h3>
+
+Em TypeScript, não temos Exception, chamamos de error. Esses errors acontecem em tempo de execução, não em tempo de compilamento. Assim sendo, temos que alterar o código para removê-los, já que TypeScript não os trata organicamente.
 <h4>Categorias de exeções</h4>
+
+<h5>Error</h5>
+
+Interface principal no TypeScript. Possui duas propriedades, name e message. Não recebemos esse tipo de erro, recebemos seus filhos (EvalError, RangeError, ReferenceError).
+
+```
+ interface Error {
+    name: string;
+    message: string;
+
+}
+```
+<h5>EvalError</h5>
+
+
+<h5>RangeError</h5>
+<h5>ReferenceError</h5>
 <h4>Captura e lançamento de exceções</h4>
 <h4>Criar novas exeções</h4>
 <h2>Sintaxe Funcional</h2>
+<h2>Referências</h2>
+
+* [TypeScript] (https://www.typescriptlang.org/index.html)
+* [TypeScript Tutorial] (https://www.tutorialspoint.com/typescript)
+* [Error Handling in Typescript] (https://narayanatechnicalworld.blogspot.com.br/2016/05/error-handling-in-typescript.html)
