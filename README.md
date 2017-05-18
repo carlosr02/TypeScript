@@ -579,7 +579,7 @@ function disp(string):void;
 function disp(number):void;
 ```
 
- 
+*  
    * A quantidade de parâmetros
 
 ```
@@ -587,7 +587,7 @@ function disp(n1:number):void;
 function disp(x:number,y:number):void;
 ```
 
-
+* 
    * A sequência dos parâmetros
 
 ```
@@ -619,6 +619,11 @@ disp(1,"xyz");
 //xyz
 ```
 
+* As duas primeiras linhas descrevem a sobrecarga dos métodos. A função tem duas sobrecargas:
+   * Uma função que recebe apenas um parâmetro string.
+   * Uma função que recebe dois valores do tipo number e string respectivamente.
+* A terceira linha define a função. O tipo dos dados está definido como **any**. Além do segundo parâmetro ser opcional.
+* A função é chamada pelos dois últimos comandos.
 <h3>Exceções</h3>
 <h4>Categorias de exeções</h4>
 <h4>Captura e lançamento de exceções</h4>
