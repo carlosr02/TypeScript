@@ -700,22 +700,22 @@ Programação funcional é, primeiramente, escrever programas com funções gen�
 * Extrair funções genéricas.
 
 Além do formato padrão de declaração de funções, TypeScript tem uma forma diferente de declaração conhecida com lambda ()=>{}.
-
 <h3>Formato padrão</h3>
+
 ```
 function isBigEnough(value) {
   return value >= 10;
 }
 var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
 ```
-
 <h3>Syntaxe lambda</h3>
+
 ```
 var isBigEnough = (value) => value >= 10;
 var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
 ```
-
 <h3>Outro formato</h3>
+
 ```
 var filtered = [12, 5, 8, 130, 44].filter((value) => value >= 10);
 ```
