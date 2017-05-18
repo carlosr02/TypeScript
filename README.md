@@ -579,7 +579,7 @@ function disp(string):void;
 function disp(number):void;
 ```
 
-* 
+ 
    * A quantidade de parâmetros
 
 ```
@@ -587,7 +587,7 @@ function disp(n1:number):void;
 function disp(x:number,y:number):void;
 ```
 
-* 
+
    * A sequência dos parâmetros
 
 ```
