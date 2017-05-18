@@ -478,6 +478,10 @@ class Car {
 
 disp() é uma definição simples de uma função. Observe que a palavra-chave function não é utilizada aqui!
 
+<h4>Visibilidade</h4>
+
+A visibilidade de métodos segue os mesmos pricípios da visibilidade dos atributos. 
+
 <h4>Acessando um método</h4>
 
 O acesso a um método de uma classe, segue a sintaxe a seguir:
