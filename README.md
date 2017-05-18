@@ -650,6 +650,6 @@ Interface principal no TypeScript. Possui duas propriedades, name e message. Nã
 <h2>Sintaxe Funcional</h2>
 <h2>Referências</h2>
 
-* [TypeScript] (https://www.typescriptlang.org/index.html)
-* [TypeScript Tutorial] (https://www.tutorialspoint.com/typescript)
-* [Error Handling in Typescript] (https://narayanatechnicalworld.blogspot.com.br/2016/05/error-handling-in-typescript.html)
+* [TypeScript](https://www.typescriptlang.org/index.html)
+* [TypeScript Tutorial](https://www.tutorialspoint.com/typescript)
+* [Error Handling in Typescript](https://narayanatechnicalworld.blogspot.com.br/2016/05/error-handling-in-typescript.html)
