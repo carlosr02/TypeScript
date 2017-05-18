@@ -502,6 +502,37 @@ class Car {
 
 A palavra-chave **this**, utilizada no exemplo acima, refere-se a instância atual da classe. No exemplo citado, o nome do parâmetro (engine) é o mesmo que o nome de um atributo da classe. Para evitar ambiguidade, o atributo é antecedido pela palavra-chave **this**.
 <h3>Herança</h3>
+
+Outro princípio suportado pela TypeScript é o conceito de Herança. Ele é a habilidade de um programa de criar novas classes a partir de classes existentes. A classe utilizada para criar novas classes é chamada de super classe/classe mãe. A classe criada é chamada de filha/sub classe.
+
+Uma classe herda de outra através da palavra-chave "extends". Classes filhas herdam todos os atributos e métodos, exceto construtores, da classe mãe.
+
+`class nome_classe_filha extends classe_mae_nome`
+
+No entanto, TypeScript não suporta heranças múltiplas.
+
+<h4>Exemplo</h4>
+
+```
+class Shape { 
+   Area:number 
+   
+   constructor(a:number) { 
+      this.Area = a 
+   } 
+}
+
+class Circle extends Shape { 
+   disp():void { 
+      console.log("Área do círculo:  "+this.Area) 
+   } 
+}
+  
+var obj = new Circle(223); 
+obj.disp()
+
+//Área do círculo: 223
+```
 <h3>Polimorfismo</h3>
 <h3>Sobrecarga</h3>
 <h3>Exceções</h3>
