@@ -507,7 +507,7 @@ class Car {
 A palavra-chave **this**, utilizada no exemplo acima, refere-se a instância atual da classe. No exemplo citado, o nome do parâmetro (engine) é o mesmo que o nome de um atributo da classe. Para evitar ambiguidade, o atributo é antecedido pela palavra-chave **this**.
 <h3>Herança</h3>
 
-Outro princípio suportado pela TypeScript é o conceito de Herança. Ele é a habilidade de um programa de criar novas classes a partir de classes existentes. A classe utilizada para criar novas classes é chamada de super classe/classe mãe. A classe criada é chamada de filha/sub classe.
+Outro princípio suportado pela TypeScript é o conceito de **herança**. Ele é a habilidade de um programa de criar novas classes a partir de classes existentes. A classe utilizada para criar novas classes é chamada de super classe/classe mãe. A classe criada é chamada de filha/sub classe.
 
 Uma classe herda de outra através da palavra-chave "extends". Classes filhas herdam todos os atributos e métodos, exceto construtores, da classe mãe.
 
@@ -538,7 +538,85 @@ obj.disp()
 //Área do círculo: 223
 ```
 <h3>Polimorfismo</h3>
+
+O método **overhiding** é um mecanismo do qual a classe filha redifine um método da super classe.
+
+<h4>Exemplo</h4>
+
+```
+class PrinterClass { 
+   doPrint():void {
+      console.log("doPrint() do Pai chamada…") 
+   } 
+} 
+
+class StringPrinter extends PrinterClass { 
+   doPrint():void { 
+      super.doPrint() 
+      console.log("doPrint() está imprimindo uma string…")
+   } 
+} 
+
+var obj = new StringPrinter() 
+obj.doPrint()
+
+//doPrint() do Pai chamada...
+//doPrint() está imprimindo uma string...
+```
+
+A palavra-chave super é usada para referir-se a classe pai imediata.
 <h3>Sobrecarga</h3>
+
+Funções podem ser executadas diferentemente baseadas nos parâmetros a elas enviados. Em outras palavras, um programa pode ter vários métodos com o mesmo nome, mas com implementações diferentes.
+
+Para sobrecaregar uma função em TypeScript, deve-se seguir alguns passo:
+
+* Passo 1 - Declarar várias funções com o mesmo nome, mas assinaturas diferentes. Essas assinaturas podem ser:
+   * O tipo do dado do parâmetro
+   
+```
+function disp(string):void; 
+function disp(number):void;
+```
+
+   * A quantidade de parâmetros
+
+```
+function disp(n1:number):void; 
+function disp(x:number,y:number):void;
+```
+
+   * A sequência dos parâmetros
+
+```
+function disp(n1:number,s1:string):void; 
+function disp(s:string,n:number):void;
+```
+
+**Atenção**: assinaturas de funções não incluem o tipo de retorno da função.
+
+* Passo 2 - A declaração de uma função deve ser seguida por sua definição. Os tipos de parãmetro devem ser declarados como **any** se eles diferenciarem-se durante a sobrecarga. Adicionalmente, pode-ser declarar um parâmetro opcional, como exemplificado abaixo.
+
+* Paso 3 - Finalmente, você deve chamar a função para fazê-la funcionar.
+
+<h4>Exemplo</h4>
+
+```
+function disp(s1:string):void; 
+function disp(n1:number,s1:string):void; 
+
+function disp(x:any,y?:any):void { 
+   console.log(x); 
+   console.log(y); 
+} 
+disp("abc") 
+disp(1,"xyz");
+
+//abc
+//1
+//xyz
+```
+
 <h3>Exceções</h3>
 <h4>Categorias de exeções</h4>
 <h4>Captura e lançamento de exceções</h4>
