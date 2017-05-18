@@ -366,7 +366,7 @@ let myAdd = function(x, y) { return x+y; };
 Essencialmente, JavaScript usa funções para construir componentes reutilizáveis. No entanto, TypeScript é orientada a objetos, permitindo a criação de classes, interfaces, etc.
 <h3>Classes</h3>
 
-Uma classe encapsula dados para um objeto.
+Uma classe encapsula dados para o objeto.
 
 ```
 class nome_classe { 
@@ -430,6 +430,32 @@ class Car {
 
 Considerando a classe Car, declarada acima. Ela tem um atributo chamado engine. Atente-se ao fato de que a palavra-chave **var** não é utilizada para declarar um atributo.
 
+<h4>Visibilidade</h4>
+
+Uma classe pode controlar a visibilidade de seus membros, entre eles, seus atributos, para outras classes. Essa habilidade é denomidada Encapsulamento, um dos princípios OO.
+
+<h5>public</h5>
+
+Um componente público tem acessibilidade universal, ou seja, pode ser acessado por qualquer componente. Componentes de uma classe são, por padão, públicos.
+<h5>private</h5>
+
+Componentes privados são acessíveis, apenas, dentro da classe que os definem. Se um componente externo a classe tentar acessar um componente privado, o compilador lança um erro.
+<h5>protected</h5>
+
+Um componente protegido é acessível por componentes pertencentes a mesma classe dele ou a classes filhas.
+
+<h5>Exemplo</h5>
+
+```
+class Encapsulate { 
+   str:string = "hello" 
+   private str2:string = "world" 
+}
+ 
+var obj = new Encapsulate() 
+console.log(obj.str)     //acessível 
+console.log(obj.str2)   //Erro de compilação, já que str2 é privado
+```
 <h4>Acessando um atributo</h4>
 
 Um atributo de uma classe pode ser acessado atráves de um objeto. É utilizada a notação com o '.' (ponto) para acessar esses valores.
