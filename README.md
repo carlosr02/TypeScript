@@ -692,9 +692,16 @@ try {
 }
 ```
 <h2>Sintaxe Funcional</h2>
+
+Programação funcional é, primeiramente, escrever programas com funções genéricas reutilizáveis. Para construir um código em TypeScript segundo o paradigma funcional, deve-se seguir três técnicas:
+
+* Usar funções em vez de valores simples;
+* Modelar tranformações de dados como uma pipeline;
+* Extrair funções genéricas.
 <h2>Referências</h2>
 
 * [TypeScript](https://www.typescriptlang.org/index.html)
 * [TypeScript Tutorial](https://www.tutorialspoint.com/typescript)
 * [Error Handling in Typescript](https://narayanatechnicalworld.blogspot.com.br/2016/05/error-handling-in-typescript.html)
 * [Try Catch Statement in TypeScript](http://www.c-sharpcorner.com/UploadFile/5089e0/try-catch-statement-in-typescript/)
+* [Functional TypeScript](https://medium.com/m/global-identity?redirectUrl=https://vsavkin.com/functional-typescript-316f0e003dc6)
