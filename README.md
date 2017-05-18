@@ -432,7 +432,7 @@ Considerando a classe Car, declarada acima. Ela tem um atributo chamado engine. 
 
 <h4>Visibilidade</h4>
 
-Uma classe pode controlar a visibilidade de seus membros, entre eles, seus atributos, para outras classes. Essa habilidade é denomidada Encapsulamento, um dos princípios OO.
+Uma classe pode controlar a visibilidade de seus membros, dentre eles, seus atributos, para outras classes. Essa habilidade é denomidada Encapsulamento, um dos princípios OO.
 
 <h5>public</h5>
 
@@ -480,7 +480,7 @@ disp() é uma definição simples de uma função. Observe que a palavra-chave f
 
 <h4>Visibilidade</h4>
 
-A visibilidade de métodos segue os mesmos pricípios da visibilidade dos atributos. 
+A visibilidade de métodos segue os mesmos pricípios da [visibilidade dos atributos](https://github.com/carlosr02/TypeScript/blob/master/README.md#visibilidade). 
 
 <h4>Acessando um método</h4>
 
