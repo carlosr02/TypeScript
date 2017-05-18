@@ -382,10 +382,99 @@ Uma classe pode conter:
 * Construtores - Responsáveis por alocarem memória para os objetos da classe.
 * Métodos - Os métodos representam ações que um objeto pode realizar.
 
+<h4>Exemplo</h4>
+
+```
+class Car { 
+   //atributo 
+   engine:string; 
+ 
+   //construtor 
+   constructor(engine:string) { 
+      this.engine = engine 
+   }  
+
+   //método 
+   disp():void { 
+      console.log("Engine is  :   "+this.engine) 
+   } 
+}
+```
 <h3>Objetos</h3>
+
+Um **objeto** é uma instância de uma classe. Para criá-lo, use a palavra-chave **new** seguida pelo nome da classe.
+
+```
+var nome_objeto = new nome_classe([ argumentos ])
+```
+
+* A palavra-chave **new** é responsável pelo instanciamento.
+* O lado direito da expressão invoca o construtor. Devem ser passados valores, caso o construtor tenha parâmetros.
+
+<h4>Exemplo</h4>
+
+`var obj = new Car("Engine 1")`
+
 <h3>Atributos</h3>
+
+Um atributo é qualquer variável declarada em uma classe. Eles representam dados pertencentes a objetos.
+
+```
+class Car { 
+   //atributo 
+   engine:string;
+   
+   ...
+ }
+```
+
+Considerando a classe Car, declarada acima. Ela tem um atributo chamado engine. Atente-se ao fato de que a palavra-chave **var** não é utilizada para declarar um atributo.
+
+<h4>Acessando um atributo</h4>
+
+Um atributo de uma classe pode ser acessado atráves de um objeto. É utilizada a notação com o '.' (ponto) para acessar esses valores.
+
+`obj.nome_atributo `
 <h3>Métodos</h3>
+
+Os métodos representam ações que um objeto pode realizar.
+
+```
+class Car { 
+   ... 
+ 
+   //método 
+   disp():void { 
+      console.log("Engine is  :   "+this.engine) 
+   } 
+ }
+```
+
+disp() é uma definição simples de uma função. Observe que a palavra-chave function não é utilizada aqui!
+
+<h4>Acessando um método</h4>
+
+O acesso a um método de uma classe, segue a sintaxe a seguir:
+
+`obj.nome_funcao()`
 <h3>Construtores</h3>
+
+Um construtor é uma função especial de uma classe responsável por inicializar os atributos dela. TypeScript define um construtor pela palavra-chave constructor. Um construtor é uma função e, portanto, pode ter parâmetros.
+
+```
+class Car { 
+   ... 
+ 
+   //construtor 
+   constructor(engine:string) { 
+      this.engine = engine 
+   }  
+
+   ... 
+}
+```
+
+A palavra-chave **this**, utilizada no exemplo acima, refere-se a instância atual da classe. No exemplo citado, o nome do parâmetro (engine) é o mesmo que o nome de um atributo da classe. Para evitar ambiguidade, o atributo é antecedido pela palavra-chave **this**.
 <h3>Herança</h3>
 <h3>Polimorfismo</h3>
 <h3>Sobrecarga</h3>
